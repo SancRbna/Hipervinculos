@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+
+}
+
+a {
+    display: inline-block;
+    color: white;
+    background: radial-gradient(circle, #161746, #055309 );
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+a:hover {
+    background: radial-gradient(circle, #055309, #161746);
+    text-decoration: underline;
+    font-size: 1.2em;
+}
